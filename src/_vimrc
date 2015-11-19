@@ -139,7 +139,7 @@ NeoBundle 'chriskempson/vim-tomorrow-theme'
 NeoBundle 'TwitVim'
 
 if has('win32')  
-    let twitvim_browser_cmd = 'C:\Program Files (x86)\Mozilla Firefox\firefox.exe' 
+    let twitvim_browser_cmd = 'C:\Program Files\Mozilla Firefox\firefox.exe' 
 elseif has('mac')
     let twitvim_browser_cmd = 'open'
 endif
