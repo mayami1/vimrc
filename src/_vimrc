@@ -40,6 +40,12 @@ set wildmenu
 set formatoptions+=mM
 "クリップボードをWindowsと連携する
 set clipboard=unnamed
+"Vimの内部文字コード
+set encoding=utf-8
+"ファイル読み込み時の文字コード
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+"改行コード
+set fileformats=unix,dos,mac
 
 "---------------------------------------------------------------------------
 " GUI固有ではない画面表示の設定:

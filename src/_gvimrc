@@ -10,7 +10,7 @@ if has('win32')
     "DirectXを用いて描画する
     set rop=type:directx
     "フォント
-    set guifont=Ricty_Diminished:h13:cSHIFTJIS
+    set guifont=Migu_1M:h10:cSHIFTJIS
     " 行間隔の設定
     set linespace=1
     " 一部のUCS文字の幅を自動計測して決める
@@ -18,9 +18,9 @@ if has('win32')
         set ambiwidth=auto
     endif
 elseif has('mac')
-    set guifont=Osaka－等幅:h14
+    set guifont=Migu_1M:h11
 elseif has('unix')
-    set guifont=RictyDiminished\ 12
+    set guifont=Migu1M\ 10
 endif
 
 "---------------------------------------------------------------------------
@@ -41,7 +41,7 @@ set cmdheight=2
 "カラースキームの設定
 colorscheme Tomorrow-Night-Eighties 
 "透過させる
-"autocmd GUIEnter * set transparency=240
+autocmd GUIEnter * set transparency=240
 
 "---------------------------------------------------------------------------
 " マウスに関する設定:
