@@ -109,7 +109,7 @@ set runtimepath+=$HOME/.vim/dein/dein.vim
 call dein#begin(expand('$HOME/.vim/dein'))
 
 "---------------------------------------------------------------------------
-"""vimshell
+"vimshell
 call dein#add('Shougo/vimproc.vim')
 call dein#add('Shougo/vimshell.vim')
 
