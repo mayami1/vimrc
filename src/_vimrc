@@ -122,12 +122,14 @@ let s:toml = '$HOME/.vim/.dein.toml'
 
 " 読み込み、キャッシュは :call dein#clear_cache() で消せます
 if dein#load_state(s:dein_dir)
+    "bigin dein
     call dein#begin(s:dein_dir)
-
+    ".dein.tomlを読み込む
     call dein#load_toml(s:toml, {'lazy': 0})
     ".dein_lazy.tomlを読み込む
     "call dein#load_toml(s:lazy_toml, {'lazy': 1})
-
+    
+    "end dein
     call dein#end()
     call dein#save_state()
 endif
