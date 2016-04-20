@@ -100,7 +100,7 @@ nnoremap <ESC><ESC> :nohlsearch<CR>
 "---------------------------------------------------------------------------
 "plugin
 "
-"start dein
+"dein
 if &compatible
     set nocompatible
 endif
