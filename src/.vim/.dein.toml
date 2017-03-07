@@ -36,3 +36,8 @@ repo = 'kannokanno/previm'
 [[plugins]]
 repo = 'tyru/open-browser.vim'
 
+[[plugins]]
+repo = 'udalov/kotlin-vim'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
