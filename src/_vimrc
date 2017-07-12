@@ -75,9 +75,9 @@ set title
 " ファイル操作に関する設定:
 "
 " バックアップファイルを作成しない (次行の先頭の " を削除すれば有効になる)
-set nobackup
+"set nobackup
 "no create undofile
-set noundofile
+"set noundofile
 "バックアップファイルのディレクトリを指定する
 set backupdir=$HOME/.vimbackup
 "スワップファイル用のディレクトリを指定する
@@ -136,20 +136,7 @@ if dein#load_state(s:dein_dir)
     call dein#save_state()
 endif
 
-"vimprocだけは最初にインストールする
-if dein#check_install(['vimproc.vim'])
-    "call dein#install(['vimproc'])
-    call dein#add('Shougo/vimproc.vim', {
-                \ 'build': {
-                \     'windows' : 'tools\\update-dll-mingw',
-                \     'cygwin'  : 'make -f make_cygwin.mak',
-                \     'mac'     : 'make -f make_mac.mak',
-                \     'linux'   : 'make',
-                \     'unix'    : 'gmake',
-                \    },
-                \ })
-endif
-"その他インストールしていないものはこちらに入れる
+"インストールしていないものはこちらに入れる
 if dein#check_install()
     call dein#install()
 endif
