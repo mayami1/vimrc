@@ -1,4 +1,3 @@
-
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
@@ -25,7 +24,7 @@ repo = 'chriskempson/vim-tomorrow-theme'
 repo = 'scrooloose/syntastic'
 
 [[plugins]]
-repo = 'TwitVim'
+repo = 'twitvim/TwitVim'
 
 [[plugins]]
 repo = 'plasticboy/vim-markdown'
